@@ -72,10 +72,3 @@ grid on
 legend('(nTx=1,nRx=1)','(nTx=1, nRx=2)', '(nTx=2, nRx=1)', '(nTx=2, nRx=2)');
 xlabel('Eb/No(dB)');
 ylabel('bit error rate');
-
-
-
-
-
-
-

@@ -6,7 +6,7 @@ snrRange = 0:2:20;          % SNR range
 infoSignal = randi([0 1], nSample, 1);
 
 % QAM modulation
-M = 4;                          % QAM order
+M = 4;                         
 modSignal = qammod(infoSignal, M);
 
 % Initialize arrays
